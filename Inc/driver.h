@@ -133,6 +133,8 @@
   #include "mini_blackpill_map.h"
 #elif defined(BOARD_MY_MACHINE)
   #include "my_machine_map.h"
+#elif defined(BOARD_BTT_RUMBA32)
+  #include "btt_rumba32_map.h"
 #else // default board
   #include "generic_map.h"
 #endif
